@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html{
+    height: 1500px;
+}
+/* 
+  Header
+*/
+a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+
+    display: inline-block;
+}
+
+a:hover{
+    background-color: rgb(194, 194, 194);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.fa-house-user{
+    font-size: 13px;
+}
+.fa-search{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.logo{
+    background-color: #009688;
+}
+.parent{
+    background-color: rgb(240, 240, 235);
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 360px;
+    visibility: hidden;
+}
+.drop:hover +.parent{
+    visibility: visible;
+}
+/* 
+    Imge
+
+*/
+.main-img{
+    width: 100%;
+    height: 350px;
+}
+.LEARN{
+    color:white;
+    font-size: 25px;
+    position: relative;
+    bottom: 90px;
+    left: 50px;
+    background-color: black;
+}
+.LEARN:hover{
+    background-color: teal;
+}
+.our, .meet{
+    text-align: center;
+}
+.our{
+    margin-bottom: 14px;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.Jone{
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+
+.division{
+    text-align: center;
+    margin-top: 45px;
+}
+ 
+.flex{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.gray{
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#333333;
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-work{
+    width: 25%;
+    color: white;
+    line-height: 24px;
+}
+.whit{
+    background-color: white;
+    height: 360px;
+    width: 23%;
+    line-height: 30px;
+}
+
+.snow{
+    height: 160px;
+    width: 100%;
+}
+.whit h3, .whit p{
+    padding-left: 12px;
+}
+
+.our-work h2{
+    margin-top: 20px;
+}
+.our-work p{
+    margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
